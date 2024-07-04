@@ -71,5 +71,13 @@ This project is a simple Bookstore API built with FastAPI. It allows users to ma
 - Health Check
     - GET /health: Check the health of the API.
 
+### Running using Docker
+
+- Use the following command to bring up the bookstore API container
+
+  ```bash
+  docker compose up --build -d bookstore
+  ```
+
 ### License
     This project is licensed under the MIT License - see the LICENSE file for details

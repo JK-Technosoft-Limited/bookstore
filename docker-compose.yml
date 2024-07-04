@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  bookstore:
+    build:
+      context: ./bookstore
+      dockerfile: Dockerfile
+    container_name: bookstore
+    hostname: bookstore
+    ports:
+      - "8000:8000"
